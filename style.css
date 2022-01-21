@@ -111,9 +111,7 @@ a {
   font-size: 2.5rem;
 }
 .blogs {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
+  display: grid;
   grid-template-columns: repeat(3, 1fr);
   grid-template-rows: repeat(3, minmax(200px, auto));
   gap: 1.5rem;
@@ -171,4 +169,7 @@ a {
   font-size: 2.5rem;
   text-transform: uppercase;
   text-align: center;
+}
+.button-set a {
+  padding: 20px;
 }
