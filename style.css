@@ -113,7 +113,7 @@ a {
 .blogs {
   display: grid;
   grid-template-columns: repeat(3, 1fr);
-  grid-template-rows: repeat(3, minmax(200px, auto));
+  grid-template-rows: repeat(2, minmax(200px, auto));
   gap: 1.5rem;
   padding: 3rem;
   justify-content: center;
