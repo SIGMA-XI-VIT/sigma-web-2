@@ -1,9 +1,9 @@
 window.sr = ScrollReveal();
 sr.reveal(".blog", {
-  duration: 2000,
-  interval: 200,
+  duration: 1000,
+  interval: 100,
   origin: "top",
-  distance: "150px",
+  distance: "70px",
   reset: true,
 });
 sr.reveal(".buttons-reveal", {
