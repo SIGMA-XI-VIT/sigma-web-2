@@ -3,7 +3,7 @@ sr.reveal(".blog", {
   duration: 1000,
   interval: 100,
   origin: "top",
-  distance: "70px",
+  distance: "20px",
   reset: true,
 });
 sr.reveal(".buttons-reveal", {
