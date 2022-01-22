@@ -107,4 +107,13 @@
   .container {
     grid-template-columns: 1fr 1fr;
   }
+  .brief {
+    display: none;
+  }
+  .blogs {
+    grid-template-columns: 1fr;
+  }
+  .respo-991 {
+    display: none;
+  }
 }
