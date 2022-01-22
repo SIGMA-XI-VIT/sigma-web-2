@@ -17,3 +17,9 @@ sr.reveal(".events-carousel", {
   origin: "top",
   distance: "100px",
 });
+sr.reveal(".col-lg-4", {
+  duration: 1000,
+  // interval: 100,
+  origin: "top",
+  distance: "20px",
+});

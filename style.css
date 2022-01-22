@@ -53,7 +53,9 @@ a {
   height: 60vh;
   background-color: rgb(0, 0, 0);
 }
+
 /* ABOUT US */
+
 .about {
   padding: 0;
   display: flex;
@@ -83,7 +85,9 @@ a {
   height: 40vh;
   width: 40vh;
 }
+
 /* EVENTS */
+
 .events {
   margin-top: 20vh;
 
@@ -101,7 +105,9 @@ a {
   margin-right: 20vw;
   margin-bottom: 20vw;
 }
+
 /* blog */
+
 .publ {
   display: flex;
   flex-direction: column;
@@ -162,6 +168,17 @@ a {
   margin-right: 15px;
   transition: 5s ease-in-out;
 }
+
+/* publications */
+.publications {
+  min-height: 100vh;
+}
+.publications h1 {
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 2.5rem;
+}
+
 /* TEAM */
 
 .team {
@@ -174,4 +191,7 @@ a {
 }
 .button-set a {
   padding-left: 20px;
+}
+.team h1 {
+  text-transform: uppercase;
 }
