@@ -4,12 +4,11 @@
   margin-top: 100px;
   display: grid;
   padding: 0 10vh 0 10vh;
-  height: 100vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
 }
 .col-lg-4 {
   padding: 5vh 2vh;
-  min-height: 400px;
+  min-height: 340px;
 }
 .card {
   position: relative;
@@ -106,10 +105,6 @@
 }
 @media (max-width: 991.5px) {
   .container {
-    margin-top: 20px;
-  }
-
-  .container .row .col-lg-4 {
-    margin: 20px 0px;
+    grid-template-columns: 1fr 1fr;
   }
 }

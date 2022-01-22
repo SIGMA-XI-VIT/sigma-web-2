@@ -3,9 +3,9 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: black;
-  padding: 10px;
-  min-height: 8vh;
+  background-color: rgb(46, 46, 46);
+  padding: 0 10px;
+  height: 10vh;
 }
 li,
 a {
@@ -96,6 +96,7 @@ a {
   flex-direction: column;
   align-items: center;
   justify-content: space-between;
+  background-color: rgb(8, 8, 8);
 }
 .events-title {
   font-size: 2.5rem;
@@ -113,6 +114,7 @@ a {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-top: 1rem;
 }
 .publ h1 {
   font-size: 2.5rem;
@@ -183,15 +185,40 @@ a {
 
 .team {
   min-height: 100vh;
+  background-color: rgb(8, 8, 8);
 }
 .team h1 {
   font-size: 2.5rem;
   text-transform: uppercase;
   text-align: center;
+  padding-top: 2rem;
 }
 .button-set a {
   padding-left: 20px;
 }
 .team h1 {
   text-transform: uppercase;
+}
+/* FOOTER */
+.contact-us {
+  display: flex;
+  justify-content: space-around;
+  padding: 2rem 2rem 0 2rem;
+  align-items: center;
+}
+.brief {
+  flex-basis: 20%;
+}
+.social {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+}
+.links {
+  display: flex;
+  justify-content: space-around;
+}
+.links img {
+  height: 24px;
+  width: 24px;
 }
