@@ -116,4 +116,7 @@
   .respo-991 {
     display: none;
   }
+  .events {
+    justify-content: space-evenly;
+  }
 }
