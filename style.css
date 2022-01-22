@@ -132,6 +132,7 @@ a {
   transform: rotateY(20deg);
   transform: rotateX(20deg);
   margin: 1rem 1rem;
+  box-shadow: 15px 33px 32px -11px rgba(0, 0, 0, 0.51);
 }
 .cardcontent {
   padding: 1rem;
