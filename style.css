@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Anton&display=swap");
 .navbar {
   color: #ffffff;
   display: flex;
@@ -78,7 +79,7 @@ a {
   width: auto;
 }
 .about h1 {
-  font-family: "Times New Roman", Times, serif;
+  font-family: "Anton", sans-serif;
   font-size: 2rem;
 }
 .item {
@@ -100,6 +101,8 @@ a {
 }
 .events-title {
   font-size: 2.5rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
 }
 .events-carousel {
   margin-left: 20vw;
@@ -118,6 +121,8 @@ a {
 }
 .publ h1 {
   font-size: 2.5rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
 }
 .blogs {
   display: grid;
@@ -186,12 +191,17 @@ a {
 .team {
   min-height: 100vh;
   background-color: rgb(8, 8, 8);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 .team h1 {
   font-size: 2.5rem;
   text-transform: uppercase;
   text-align: center;
   padding-top: 2rem;
+  font-family: "Anton", sans-serif;
+  letter-spacing: 2px;
 }
 .button-set a {
   padding-left: 20px;
@@ -221,5 +231,9 @@ a {
 .links img {
   height: 24px;
   width: 24px;
-  padding-right: 15px;
+  margin-right: 15px;
+}
+.buttons-reveal:hover {
+  color: rgb(245, 248, 214);
+  transition: 0.5s ease-out;
 }

@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap");
 
 .container {
-  margin-top: 100px;
+  margin-top: 50px;
   display: grid;
   padding: 0 10vh 0 10vh;
   grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -9,6 +9,9 @@
 .col-lg-4 {
   padding: 5vh 2vh;
   min-height: 340px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .card {
   position: relative;
@@ -30,7 +33,6 @@
 .card .card-image img {
   width: 100%;
   max-height: 340px;
-  object-fit: cover;
 }
 
 .card .card-content {
@@ -105,13 +107,15 @@
 }
 @media (max-width: 991.5px) {
   .container {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr;
   }
   .brief {
     display: none;
   }
   .blogs {
     grid-template-columns: 1fr;
+    min-height: auto;
+    padding: 0;
   }
   .respo-991 {
     display: none;
