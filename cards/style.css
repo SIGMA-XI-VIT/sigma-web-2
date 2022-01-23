@@ -117,11 +117,16 @@
     min-height: auto;
     padding: 0;
   }
+  .blog {
+    height: 600px;
+    width: 600px;
+  }
   .respo-991 {
     display: none;
   }
   .events {
     justify-content: space-evenly;
+    height: auto;
   }
   html {
     font-size: 24px;
