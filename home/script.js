@@ -107,17 +107,37 @@ class CreateParticles {
     this.colorChange = new THREE.Color();
 
     this.buttom = false;
-
-    this.data = {
-      text: "SIGMA XI\n",
-      amount: 1500,
-      particleSize: 1,
-      particleColor: 0xffffff,
-      textSize: 16,
-      area: 250,
-      ease: 0.05,
-    };
-
+    if (window.innerWidth > 900) {
+      this.data = {
+        text: "SIGMA XI\n",
+        amount: 1500,
+        particleSize: 1,
+        particleColor: 0xffffff,
+        textSize: 16,
+        area: 250,
+        ease: 0.05,
+      };
+    } else if (window.innerWidth > 600) {
+      this.data = {
+        text: "SIGMA XI\n",
+        amount: 1500,
+        particleSize: 1,
+        particleColor: 0xffffff,
+        textSize: 10,
+        area: 250,
+        ease: 0.05,
+      };
+    } else {
+      this.data = {
+        text: "SIGMA XI\n",
+        amount: 1500,
+        particleSize: 1,
+        particleColor: 0xffffff,
+        textSize: 4,
+        area: 250,
+        ease: 0.05,
+      };
+    }
     this.setup();
     this.bindEvents();
   }

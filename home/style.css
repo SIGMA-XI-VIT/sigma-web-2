@@ -13,6 +13,7 @@ body {
   top: 0;
   left: 0;
   bottom: 0;
+  right: 0;
   z-index: 1;
   background-color: black;
   -webkit-user-select: none;
@@ -24,10 +25,11 @@ body {
 #magic {
   position: relative;
   width: 100%;
-  height: 80vh;
   display: block;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   overflow: hidden;
   z-index: -9999;
 }
@@ -35,11 +37,12 @@ body {
 .playground {
   position: absolute;
   width: 100%;
-  height: 70vh;
   overflow: hidden;
   display: block;
   top: 0;
   left: 0;
+  bottom: 0;
+  right: 0;
   display: flex;
   flex-wrap: nowrap;
   flex-direction: column;

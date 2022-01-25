@@ -212,7 +212,7 @@ a {
 /* FOOTER */
 .contact-us {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-between;
   padding: 2rem 2rem 0 2rem;
   align-items: center;
 }
