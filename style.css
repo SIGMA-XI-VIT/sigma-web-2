@@ -187,6 +187,7 @@ a {
 }
 .pub {
   max-width: 350px;
+  background-size: contain;
 }
 /* TEAM */
 
