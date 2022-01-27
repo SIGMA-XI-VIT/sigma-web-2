@@ -107,7 +107,9 @@ class CreateParticles {
     this.colorChange = new THREE.Color();
 
     this.buttom = false;
-    if (window.innerWidth > 900) {
+    console.log(window.visualViewport.width);
+    console.log(document.body.clientWidth);
+    if (window.visualViewport.width > 900) {
       this.data = {
         text: "SIGMA XI\n",
         amount: 1500,
@@ -117,7 +119,7 @@ class CreateParticles {
         area: 250,
         ease: 0.05,
       };
-    } else if (window.innerWidth > 600) {
+    } else if (window.visualViewport.width > 600) {
       this.data = {
         text: "SIGMA XI\n",
         amount: 1500,
@@ -138,6 +140,7 @@ class CreateParticles {
         ease: 0.05,
       };
     }
+    console.log(this.data);
     this.setup();
     this.bindEvents();
   }
