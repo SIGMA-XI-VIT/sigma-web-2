@@ -117,10 +117,10 @@
     min-height: auto;
     padding: 0;
   }
-  .blog {
-    height: 600px;
-    width: 600px;
-  }
+  /* .blog {
+    height: 60vw;
+    width: 70vh;
+  } */
   .respo-991 {
     display: none;
   }
@@ -130,6 +130,9 @@
   }
   .pub {
     height: 350px;
+  }
+  .contact-us {
+    justify-content: space-evenly;
   }
 
   html {
